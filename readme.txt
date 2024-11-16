@@ -20,6 +20,11 @@ README - Regexlib
             name : Pour les noms complets.
             firstname : Pour les prénoms.
             lastname : Pour les noms de famille.
+            tutor : Pour les noms des tuteurs
+            age : Pour les âges entre 1 à 120 ans.
+            major : Pour les âges entre 18 à 120 ans.
+            comments : Utiliser pour les textarea.
+            moreInfo : Pour les champs destinés aux informations supplimentaires.
             email : Pour les adresses email.
             password : Pour les mots de passe.
             phoneNumber : Pour les numéros de téléphone.
@@ -34,7 +39,7 @@ README - Regexlib
                     <div class="invalid-feedback"></div>
                 </div>
                 <!-- Ajouter d'autres champs selon les besoins -->
-                <button type="submit" class="btn btn-primary">Valider</button>
+                <button name="valider" class="btn btn-primary">Valider</button>
             </form>
 
     DISPONIBILITE
