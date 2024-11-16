@@ -28,7 +28,7 @@ function regexlib(input) {
         password: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
         phoneNumber: /^(?:\+?(\d{1,3})[-.\s]?)?((\d{2}|\d{3}))?[-.\s]?\d{2}[-.\s]?\d{2}[-.\s]?\d{2}[-.\s]?\d{2}$/,
         moreInfo: /^[A-Za-zÀ-ÖØ-öø-ÿ\s'-]+$/,
-        comments: /^[A-Za-zÀ-ÖØ-öø-ÿ\s'-]+$/,
+        comments: /^[A-Za-zÀ-ÖØ-öø-ÿ0-9\s.,!?;:'"()\-]+$/,
     };
 
     validation = regexPatterns[input.name];
